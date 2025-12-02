@@ -1,3 +1,3 @@
 import logo from './logo.png'
 
-export { logo };
+export const images = { logo};

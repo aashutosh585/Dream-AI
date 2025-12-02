@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight, Code2, Zap, Layout, Terminal, Github, Twitter, Linkedin, MessageSquare, Download, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { logo } from '../assets/assests';
+import { images } from '../assets/assests';
 
 export const LandingPage: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ export const LandingPage: React.FC = () => {
   <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
     <div className="flex items-center gap-3">
       <img
-        src={logo}
+        src={images.logo}
         alt="Dream AI Logo"
         className="h-40 w-auto object-contain"
       />

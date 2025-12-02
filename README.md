@@ -2,6 +2,10 @@
 
 Dream is a cutting-edge web application that leverages the power of Google's Gemini AI to generate website code from simple user prompts. ✨ Simply describe the website you envision, and Dream AI will generate the HTML, CSS, and JavaScript, allowing you to preview and refine your creation in real-time. It solves the problem of quickly prototyping and generating website code, making web development more accessible and efficient.
 
+## 🌐 Live Demo
+
+Check out the deployed app here: [https://dream-ai-jade.vercel.app/](https://dream-ai-jade.vercel.app/)
+
 ## 🚀 Key Features
 
 - **AI-Powered Code Generation:** Generate website code (HTML, CSS, JavaScript) from natural language prompts using Google's Gemini AI. 🧠
@@ -103,8 +107,9 @@ dream-ai/
 ```
 
 ## 📸 Screenshots
-
-(Add screenshots of the landing page, builder page, and code view here)
+![Screenshot 1](./public/img1.png)
+![Screenshot 2](./public/img2.png)
+![Screenshot 3](./public/img3.png)
 
 ## 🤝 Contributing
 
