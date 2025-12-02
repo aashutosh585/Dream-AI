@@ -168,7 +168,7 @@ export const BuilderPage: React.FC = () => {
           <Link to="/" className="text-slate-400 hover:text-white transition-colors">
             <ArrowLeft size={18} />
           </Link>
-          <span className="font-semibold text-sm md:text-base text-slate-200">SiteGen Builder</span>
+          <span className="font-semibold text-sm md:text-base text-slate-200">Dream Builder</span>
         </div>
 
         <div className="flex items-center bg-slate-950 rounded-lg p-1 border border-slate-800">

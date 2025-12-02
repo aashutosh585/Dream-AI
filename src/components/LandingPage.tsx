@@ -12,7 +12,7 @@ export const LandingPage: React.FC = () => {
             <div className="w-8 h-8 bg-gradient-to-tr from-brand-500 to-indigo-600 rounded-lg flex items-center justify-center">
               <Code2 size={20} className="text-white" />
             </div>
-            <span className="font-bold text-xl tracking-tight">SiteGen AI</span>
+            <span className="font-bold text-xl tracking-tight">Dream AI</span>
           </div>
           <Link 
             to="/builder"
@@ -117,7 +117,7 @@ export const LandingPage: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Built for builders</h2>
           <div className="grid md:grid-cols-2 gap-6">
               <TestimonialCard 
-                quote="I used to spend hours setting up boilerplate code. SiteGen AI handles the structure so I can focus on the logic. Ideal for rapid prototyping."
+                quote="I used to spend hours setting up boilerplate code. Dream AI handles the structure so I can focus on the logic. Ideal for rapid prototyping."
                 author="Sarah Chen"
                 role="Frontend Developer"
               />
@@ -139,7 +139,7 @@ export const LandingPage: React.FC = () => {
                 <div className="w-8 h-8 bg-gradient-to-tr from-brand-500 to-indigo-600 rounded-lg flex items-center justify-center">
                   <Code2 size={20} className="text-white" />
                 </div>
-                <span className="font-bold text-xl tracking-tight text-white">SiteGen AI</span>
+                <span className="font-bold text-xl tracking-tight text-white">Dream AI</span>
               </div>
               <p className="text-slate-400 text-sm leading-relaxed mb-6">
                 Empowering everyone to build the web, one prompt at a time. Built with the latest AI technology.
@@ -182,7 +182,7 @@ export const LandingPage: React.FC = () => {
           </div>
           
           <div className="pt-8 border-t border-slate-800 text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-slate-500 text-sm">© {new Date().getFullYear()} SiteGen AI. All rights reserved.</p>
+            <p className="text-slate-500 text-sm">© {new Date().getFullYear()} Dream AI. All rights reserved.</p>
             <div className="flex items-center gap-2 text-sm text-slate-500">
               <span>Built with</span>
               <Zap size={14} className="text-yellow-500 fill-current" />
