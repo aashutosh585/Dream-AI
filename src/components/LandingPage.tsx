@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Code2, Zap, Layout, Terminal, Github, Twitter, Linkedin, MessageSquare, Download, Star } from 'lucide-react';
+import { ArrowRight, Code2, Zap, Layout, Terminal, Github, Twitter, Linkedin, MessageSquare, Download, Star, Heart, Sparkle, Rose } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { images } from '../assets/assests';
 
@@ -140,7 +140,7 @@ export const LandingPage: React.FC = () => {
             <div className="col-span-1 md:col-span-1">
               <div className="flex items-center gap-2 mb-6">
                 <div className="w-8 h-8 bg-gradient-to-tr from-brand-500 to-indigo-600 rounded-lg flex items-center justify-center">
-                  <Code2 size={20} className="text-white" />
+                  <Rose size={14} className="text-red-500 fill-current" />
                 </div>
                 <span className="font-bold text-xl tracking-tight text-white">Dream AI</span>
               </div>
@@ -148,9 +148,9 @@ export const LandingPage: React.FC = () => {
                 Empowering everyone to build the web, one prompt at a time. Built with the latest AI technology.
               </p>
               <div className="flex gap-4">
-                <a href="#" className="text-slate-400 hover:text-white transition-colors"><Twitter size={20} /></a>
-                <a href="#" className="text-slate-400 hover:text-white transition-colors"><Github size={20} /></a>
-                <a href="#" className="text-slate-400 hover:text-white transition-colors"><Linkedin size={20} /></a>
+                <a href="https://x.com/Ashutos86739582" className="text-slate-400 hover:text-white transition-colors"><Twitter size={20} /></a>
+                <a href="https://github.com/aashutosh585" className="text-slate-400 hover:text-white transition-colors"><Github size={20} /></a>
+                <a href="https://www.linkedin.com/in/ashutosh585" className="text-slate-400 hover:text-white transition-colors"><Linkedin size={20} /></a>
               </div>
             </div>
             
@@ -188,8 +188,8 @@ export const LandingPage: React.FC = () => {
             <p className="text-slate-500 text-sm">© {new Date().getFullYear()} Dream AI. All rights reserved.</p>
             <div className="flex items-center gap-2 text-sm text-slate-500">
               <span>Built with</span>
-              <Zap size={14} className="text-yellow-500 fill-current" />
-              <span>Google Gemini</span>
+              <Heart size={14} className="text-yellow-500 fill-current" />
+              <span>Ashutosh</span>
             </div>
           </div>
         </div>
