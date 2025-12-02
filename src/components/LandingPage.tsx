@@ -1,27 +1,30 @@
 import React from 'react';
 import { ArrowRight, Code2, Zap, Layout, Terminal, Github, Twitter, Linkedin, MessageSquare, Download, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { logo } from '../assets/assests';
 
 export const LandingPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-950 text-white overflow-x-hidden">
       {/* Navbar */}
       <nav className="border-b border-slate-800/50 backdrop-blur-sm fixed w-full z-50 bg-slate-950/80">
-        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-tr from-brand-500 to-indigo-600 rounded-lg flex items-center justify-center">
-              <Code2 size={20} className="text-white" />
-            </div>
-            <span className="font-bold text-xl tracking-tight">Dream AI</span>
-          </div>
-          <Link 
-            to="/builder"
-            className="px-5 py-2 bg-white text-slate-950 rounded-full font-medium hover:bg-slate-100 transition-colors"
-          >
-            Start Building
-          </Link>
-        </div>
-      </nav>
+  <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+    <div className="flex items-center gap-3">
+      <img
+        src={logo}
+        alt="Dream AI Logo"
+        className="h-40 w-auto object-contain"
+      />
+    </div>
+
+    <Link
+      to="/builder"
+      className="px-5 py-2 bg-white text-slate-950 rounded-full font-medium hover:bg-slate-100 transition-colors"
+    >
+      Start Building
+    </Link>
+  </div>
+</nav>
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6 relative">
