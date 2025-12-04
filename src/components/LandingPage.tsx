@@ -36,11 +36,11 @@ export const LandingPage: React.FC = () => {
             Powered by Gemini 2.5 Flash
           </div>
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 leading-tight">
-            Turn text into a <br/>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-indigo-400">
-              functional website.
-            </span>
-          </h1>
+  Turn text into a <br/>
+  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">
+    functional website.
+  </span>
+</h1>
           <p className="text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
             Describe your dream website and let our AI generate the HTML, CSS, and JavaScript in seconds. No coding required.
           </p>
